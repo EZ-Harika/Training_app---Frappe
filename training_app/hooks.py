@@ -11,16 +11,14 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "training_app",
-# 		"logo": "/assets/training_app/logo.png",
-# 		"title": "Employee-Training",
-# 		"route": "/training_app",
-# 		"has_permission": "training_app.api.permission.has_app_permission"
-# 	}
-# ]
-
+add_to_apps_screen = [
+    {
+        "name": "training_app",
+        "logo": "/assets/frappe/images/frappe-framework-logo.svg",
+        "title": "Employee-Training",
+        "route": "/desk/employee-training",
+    }
+]
 # Includes in <head>
 # ------------------
 
